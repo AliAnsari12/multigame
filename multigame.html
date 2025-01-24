@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplayer Game</title>
+    <link rel="stylesheet" href="multigame.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Multiplayer Online Game</h1>
+        <div id="login">
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <button id="loginButton">Login</button>
+        </div>
+        <div id="game" style="display: none;">
+            <h2>Game Room</h2>
+            <div id="gameUpdates"></div>
+            <button id="actionButton">Perform Action</button>
+        </div>
+    </div>
+    <script src="multigame.js"></script>
+</body>
+</html>
